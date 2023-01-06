@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-family: Open Sans;
+}
+
+.header {
+    width: 1600px;
+    height: 808px;
+    left: 0px;
+    top: 0px;
+    text-align: right;
+    background-image: url('../images/banner/banner3.png');
+}
+
+.title {
+    padding: 216px 230px 0 845px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.description {
+    padding: 0 230px 0 876px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    padding: 21px 25px 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    margin-right: 230px;
+    margin-top: 32px;
+    border: none;
+    border-radius: 5px;
+}
