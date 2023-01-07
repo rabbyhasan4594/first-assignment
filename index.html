@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Assignment</title>
+    <!-- link google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&family=Open+Sans&display=swap"
         rel="stylesheet">
+    <!-- link css -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -28,6 +30,7 @@
             </button>
         </div>
     </header>
+    <!-- main section -->
     <main>
         <section class="sec-nav">
             <nav>
@@ -56,12 +59,11 @@
                     </p>
                     <p class="sec-description">
                         <img src="images/icons/check-mark.png" alt="" width="15px" height="12px"> Contrary to popular simply.
-                    </p>
-                    
-                        
+                    </p>    
                 </div>
             </nav>
         </section>
+        <!-- Plan section -->
         <section class="plans">
             <h3 class="section-title">
                 My Plans
@@ -114,6 +116,58 @@
                 call now
             </button>
         </section>
+
+        <!-- feedback section -->
+
+        <section class="feedback">
+            <div class="information">
+                <div class="personal-info">
+                    <h3 class="info-title">
+                        Your Information
+                    </h3>
+                    <form action="">
+                        <label for="name">Your name
+                            <input id="name" type="text" placeholder="Your Name">
+                            <br>
+                            <br>
+                        <label for="email">Your Email
+                            <input id="email" type="email" placeholder="Your Email">
+                            <input type="reset" value="Reset" class="reset">
+                            <input type="submit" value="Submit" class="submit">
+                    </form>
+            </div>
+                <div class="feed-info">
+                    <h3 class="info-title">
+                        Your Feedback
+                    </h3>
+                    <form action="">
+                        <fieldset>
+                            <legend>
+                                Will you have any future plan?
+                            </legend>
+                            <label for="yes">
+                                <input type="radio" name="ans" class="answer">
+                                Yes
+                            </label>
+                            <br>
+                            <label for="no">
+                                <input type="radio" name="ans" class="answer">
+                                No
+                            </label>
+                        </fieldset>
+                        <br>
+                        <br>
+                            <h3 class="q-title">
+                                Your Plan
+                            </h3>
+                            <textarea name="" id="" cols="40" rows="5"></textarea>
+                            <input type="reset" value="Reset" class="reset">
+                            <input type="submit" value="Submit" class="submit">
+                    </form>
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer>
         <nav class="fo-nav">
@@ -147,11 +201,13 @@
                 <h3 class="fo-sub">
                     Subscribe
                 </h3>
-                <input type="email" class="fo-input" placeholder="Enter your email" class="input">
+                <form action="">
+                    <input type="email" class="fo-input" placeholder="Enter your email" class="input">
                 <br>
                 <button class="fo-button">
                     Subscribe
                 </button>
+                </form>
             </div>
         </nav>
 
