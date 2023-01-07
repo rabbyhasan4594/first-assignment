@@ -118,7 +118,7 @@ nav {
     height: 300px;
     margin-left: 230px;
     margin-bottom: 130px;
-    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0)), url('/images/watch.png');
+    background-image: linear-gradient(90deg, #005FAC 0%, #005fac00), url('images/watch.png');
     border-radius: 8px;
 
 }
