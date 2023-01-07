@@ -207,8 +207,11 @@ footer {
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     margin-bottom: 18px;
+    
 }
-
+::fo-input-placeholder {
+    color: white;
+  }
 .fo-button {
     font-weight: 600;
     font-size: 20px;
